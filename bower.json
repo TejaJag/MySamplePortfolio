@@ -1,0 +1,21 @@
+{
+  "name": "teja",
+  "description": "portfolio",
+  "main": "index.html",
+  "authors": [
+    "teja <tejajagarlamudi95@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "portfolio"
+  ],
+  "homepage": "https://github.com/TejaJag/MySamplePortfolio",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
