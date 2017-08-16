@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('tejaApp', [
+  .module('appApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -19,10 +19,15 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
+       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
+      })
+      .when('/views/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'contactCtrl',
+
       })
       .otherwise({
         redirectTo: '/'
